@@ -3,21 +3,21 @@ import {Navbar,HeroSection, Stats, Business, Billing, CardDeal, Testimonials, Cl
 function App() {
 
   return (
-    <div className='w-full overflow-hidden bg-primary'>
-      <div className='px-[32px] md:px-[132px]' >
-        <div>
+    <div className='bg-primary w-full overflow-hidden'>
+      <div className='flexCenter paddingX' >
+        <div className='boxWidth'>
           <Navbar/>
         </div>
       </div>
       {/* navbar ends */}
-      <div className='px-[32px] md:px-[132px]'>
-        <div>
+      <div className=' flexCenter paddingX'>
+        <div className='boxWidth'>
           <HeroSection/>
         </div>
       </div>
       {/* hero section ends */}
-      <div>
-        <div>
+      <div className='flexCenter paddingX'>
+        <div className='boxWidth'>
           <Stats/>
           <Business/>
           <Billing/>
